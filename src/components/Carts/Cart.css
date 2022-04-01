@@ -1,0 +1,14 @@
+.cart {
+    background-color: #021627;
+    color: white;
+    height: 400px;
+    position: sticky;
+    top: 2px;
+    padding: 15px;
+}
+
+@media (min-width:768px) {
+    .cart {
+        height: 650px;
+    }
+}

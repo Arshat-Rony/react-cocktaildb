@@ -1,0 +1,37 @@
+.singleorder img {
+    width: 100px;
+    height: 200px;
+}
+
+.singleorder-detail {
+    display: flex;
+    gap: 13px;
+
+}
+
+.text {
+    margin-top: 30px;
+}
+
+.singleorder {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+
+@media (min-width:768px) {
+    .singleorder {
+        width: 572px;
+    }
+}
+
+.delete-btn {
+    background-color: rgb(143, 24, 24);
+    padding: 15px;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 100%;
+    margin-right: 20px;
+}

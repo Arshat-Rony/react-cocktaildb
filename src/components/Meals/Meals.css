@@ -1,0 +1,63 @@
+.meals-container {
+    position: relative;
+
+}
+
+.restaurent {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    max-width: 80%;
+    grid-gap: 10px;
+    margin: 0 auto;
+}
+
+
+.meals {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 14px;
+}
+
+@media (min-width : 768px) {
+    .meals {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+.meals-detail {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    color: rgb(223, 212, 212);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input {
+
+    width: 280px;
+    height: 35px;
+    padding-left: 6px;
+    font-size: 1.1rem;
+
+}
+
+.input:focus {
+    background-color: rgb(8, 34, 34);
+    color: white;
+}
+
+@media (min-width:768px) {
+    .input {
+        width: 600px;
+        height: 45px;
+    }
+
+    .meals-detail {
+        top: 2%;
+        font-size: 1.8rem;
+    }
+}

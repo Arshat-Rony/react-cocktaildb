@@ -1,0 +1,18 @@
+.order-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+@media(min-width:768px) {
+    .order-container {
+        grid-template-columns: 3fr 1fr;
+    }
+}
+
+.orders {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}

@@ -1,0 +1,10 @@
+.singleMeal {
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.singleMeal img {
+    max-width: 100%;
+    display: block;
+}
